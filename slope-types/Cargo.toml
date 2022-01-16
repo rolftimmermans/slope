@@ -1,0 +1,18 @@
+[package]
+name = "slope-types"
+version = "0.1.0"
+authors = ["Rolf Timmermans <rolftimmermans@voormedia.com>"]
+edition = "2018"
+
+[dependencies]
+slope-derive = {path = "../slope-derive"}
+
+ahash = {version = "*", default-features = false, features = ["std"]}
+lasso = {version = "*", default-features = false, features = ["ahasher"]}
+im-rc = {version = "*", default-features = false, features = []}
+log = {version = "*", default-features = false, features = ["max_level_trace", "release_max_level_off"]}
+
+[dev-dependencies]
+simple_logger = {version = "*", default-features = false}
+quickcheck = {version = "*"}
+quickcheck_macros = {version = "*"}

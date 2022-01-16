@@ -1,0 +1,22 @@
+[package]
+name = "slope-vm"
+version = "0.1.0"
+authors = ["Rolf Timmermans <rolftimmermans@voormedia.com>"]
+edition = "2018"
+
+[dependencies]
+slope-types = {path = "../slope-types"}
+slope-parse = {path = "../slope-parse"}
+
+ahash = {version = "*", default-features = false, features = ["std"]}
+indexmap = {version = "*", default-features = false, features = []}
+phf = {version = "*", default-features = false, features = ["std", "macros"]}
+strsim = {version = "*"}
+
+log = {version = "*", default-features = false, features = ["max_level_debug", "release_max_level_off"]}
+
+[dev-dependencies]
+simple_logger = {version = "*", default-features = false}
+
+[build-dependencies]
+regex = {version = "*", default-features = false, features = ["std"]}

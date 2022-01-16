@@ -1,0 +1,4 @@
+#imports_layout = "HorizontalVertical"
+#merge_imports = true
+#struct_variant_width = 40
+#width_heuristics = "Off"

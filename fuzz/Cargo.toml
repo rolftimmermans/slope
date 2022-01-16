@@ -1,0 +1,9 @@
+[package]
+name = "fuzz-parse"
+version = "0.1.0"
+authors = ["Rolf Timmermans <rolftimmermans@voormedia.com>"]
+edition = "2018"
+
+[dependencies]
+afl = {version = "*"}
+slope-parse = {path = "../slope-parse"}

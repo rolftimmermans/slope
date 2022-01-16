@@ -1,0 +1,14 @@
+[package]
+name = "slope-parse"
+version = "0.1.0"
+authors = ["Rolf Timmermans <rolftimmermans@voormedia.com>"]
+edition = "2018"
+
+[dependencies]
+nom = {version = "*", default-features = false, features = ["std"]}
+nom_locate = {version = "*", default-features = false, features = []}
+unicode_categories = {version = "*", default-features = false, features = []}
+smol_str = {version = "*", default-features = false, features = []}
+
+[dev-dependencies]
+lazy_static = {version = "*"}

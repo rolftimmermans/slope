@@ -1,0 +1,15 @@
+[package]
+name = "slope-derive"
+version = "0.1.0"
+edition = "2018"
+authors = ["Rolf Timmermans"]
+
+[lib]
+path = "lib.rs"
+proc-macro = true
+
+[dependencies]
+syn = "*"
+quote = "*"
+synstructure = "*"
+proc-macro2 = "*"

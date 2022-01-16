@@ -1,0 +1,11 @@
+[package]
+name = "slope-format"
+version = "0.1.0"
+authors = ["Rolf Timmermans <rolftimmermans@voormedia.com>"]
+edition = "2018"
+
+[dependencies]
+slope-parse = {path = "../slope-parse"}
+
+[dev-dependencies]
+indoc = {version = "*"}
